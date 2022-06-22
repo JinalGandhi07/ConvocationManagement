@@ -56,7 +56,7 @@ isok:boolean=false;
     }
   }
 
-  checkCheckBoxValue(v,event){
+  checkCheckBoxValue(v,event:{target: HTMLInputElement}){
     if(event.target.checked){
 
     console.log(event.target.value);
